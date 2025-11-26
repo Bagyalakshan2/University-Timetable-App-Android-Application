@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+
+
+
+    <ImageView
+        android:layout_width="200sp"
+        android:src="@drawable/w"
+
+        android:layout_height="200sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose TimeTable"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Network"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Software"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>
